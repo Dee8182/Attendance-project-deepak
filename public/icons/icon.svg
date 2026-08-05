@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Amber background -->
+  <rect width="512" height="512" fill="#f59e0b"/>
+  <!-- Safe zone circle (for maskable) -->
+  <circle cx="256" cy="256" r="180" fill="#d97706"/>
+  <!-- Calendar body -->
+  <rect x="152" y="176" width="208" height="184" rx="16" fill="white"/>
+  <!-- Calendar top bar -->
+  <rect x="152" y="176" width="208" height="52" rx="16" fill="#1e293b"/>
+  <rect x="152" y="208" width="208" height="20" fill="#1e293b"/>
+  <!-- Calendar binding lines -->
+  <rect x="196" y="156" width="12" height="44" rx="6" fill="#1e293b"/>
+  <rect x="304" y="156" width="12" height="44" rx="6" fill="#1e293b"/>
+  <!-- Checkmark -->
+  <path d="M196 288 L236 328 L328 236" stroke="white" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
