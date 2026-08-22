@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #f59e0b;
+  --color-secondary: #1e293b;
+}
+
+.brand-primary { color: var(--color-primary); }
+.brand-bg-primary { background-color: var(--color-primary); }
+.brand-border-primary { border-color: var(--color-primary); }
+.brand-secondary { color: var(--color-secondary); }
+.brand-bg-secondary { background-color: var(--color-secondary); }
